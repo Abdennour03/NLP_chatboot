@@ -1,0 +1,50 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I help you with machine learning today?", "Hi there! Ask me anything about ML or AI."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+        "responses": ["Goodbye! Keep learning.", "See you later. Stay curious about AI!"]
+      },
+      {
+        "tag": "what_is_ml",
+        "patterns": ["What is machine learning?", "Explain ML", "Can you define machine learning?", "Tell me about ML"],
+        "responses": ["Machine learning is a branch of AI that allows systems to learn from data and improve over time without being explicitly programmed."]
+      },
+      {
+        "tag": "what_is_dl",
+        "patterns": ["What is deep learning?", "Define deep learning", "Tell me about deep learning", "Explain DL"],
+        "responses": ["Deep learning is a subset of machine learning that uses neural networks with many layers to analyze data and make decisions."]
+      },
+      {
+        "tag": "ml_algorithms",
+        "patterns": ["What are popular ML algorithms?", "Give me examples of machine learning algorithms", "List ML models"],
+        "responses": ["Some common ML algorithms include Linear Regression, Decision Trees, SVM, KNN, Random Forest, and Neural Networks."]
+      },
+      {
+        "tag": "difference_ml_dl",
+        "patterns": ["What is the difference between ML and DL?", "ML vs DL", "Difference between machine learning and deep learning"],
+        "responses": ["Machine learning uses algorithms to parse data, learn from it, and make decisions. Deep learning is a specialized ML field using multi-layered neural networks."]
+      },
+      {
+        "tag": "neural_network",
+        "patterns": ["What is a neural network?", "Explain neural networks", "How do neural nets work?"],
+        "responses": ["A neural network is a series of algorithms that mimic the operations of a human brain to recognize relationships in data."]
+      },
+      {
+        "tag": "supervised_learning",
+        "patterns": ["What is supervised learning?", "Explain supervised learning", "Examples of supervised learning"],
+        "responses": ["Supervised learning is a type of ML where the model is trained on labeled data. Examples include regression and classification."]
+      },
+      {
+        "tag": "unsupervised_learning",
+        "patterns": ["What is unsupervised learning?", "Explain unsupervised learning", "Examples of unsupervised learning"],
+        "responses": ["Unsupervised learning involves training on data without labels. Common techniques include clustering and dimensionality reduction."]
+      }
+    ]
+  }
+  
